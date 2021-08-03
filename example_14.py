@@ -41,8 +41,8 @@ if __name__ == '__main__':
 
     @log_methods("b d Y - H:M:S")
     class ExampleClass:
-        @staticmethod
-        def sum_1() -> int:
+        @classmethod
+        def sum_1(cls) -> int:
             print("sum 1")
             number = 100
             result = 0
